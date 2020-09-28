@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "onboardingAngular"
+    }
+  },
+  "defaultProject": "onboardingAngular",
+  "cli": {
+    "analytics": false
+  }
 }
