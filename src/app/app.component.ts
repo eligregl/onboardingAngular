@@ -6,5 +6,6 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  
+  title: string = 'So excited to have you on board!'
+  imageUrl: string;
 }

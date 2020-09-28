@@ -11,11 +11,12 @@ body {
     padding: 0px;
     height: 20em;
     width: auto;
+    background-image: url('./assets/images/colorstrokes.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.formGroup {
-    
-}
-.emailInput {
+.nameInput {
     margin-right: 1em;
     height: 3em;
     width: 20em;
