@@ -1,8 +1,5 @@
 <h1 class="title">{{ title }}</h1>
 <img [src]="'../../../assets/images/welcome.png'" alt="welcome-image" class="welcome-image">
-<form class="formGroup">
-    <input type="text" placeholder="Enter your name" class="nameInput">
-    <input type="submit" class="inputButton">
-</form>
+<app-name (nameSubmit)="onNameSubmit($event)"></app-name>
 
 

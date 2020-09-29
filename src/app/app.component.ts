@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,4 +8,12 @@ import { Component, OnInit, Input } from '@angular/core';
 export class AppComponent {
   title: string = 'So excited to have you on board!'
   imageUrl: string;
+
+  // onClick(inputValue: string) {
+  //   console.log(inputValue)
+  // }
+
+  onNameSubmit(name: string) {
+    console.log(name);
+  }
 }
