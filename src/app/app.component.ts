@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output, Input } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,12 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title: string = 'So excited to have you on board!'
   imageUrl: string;
-
-  // onClick(inputValue: string) {
-  //   console.log(inputValue)
-  // }
-
-  onNameSubmit(name: string) {
-    console.log(name);
+  username: string;
+  @Output() nameSubmit: EventEmitter<string> = new EventEmitter<string>();
+  
+  onClick(name: string) {
+    this.nameSubmit.emit(name);
   }
 }
