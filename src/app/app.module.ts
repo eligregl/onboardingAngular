@@ -4,10 +4,11 @@ import { FormsModule } from '@angular/forms'
 
 import { AppComponent } from './app.component';
 import { NameComponent } from './shared/components/name/name.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [AppComponent, NameComponent],
-  imports: [BrowserModule, FormsModule],
+  imports: [BrowserModule, FormsModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
   exports: [AppComponent]
