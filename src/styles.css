@@ -1,15 +1,18 @@
 body {
     background-color: black;
-    text-align: center;
     color: white;
+}
+.welcomeCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .title {
-    margin-top: 3.5em;
-    color: white;
+    margin-top: 2em;
+    text-align: center;
 }
 .welcome-image {
-    margin: 0px;
-    padding: 0px;
+    margin: 0 auto;
     height: 20em;
     width: auto;
     background-image: url('./assets/images/colorstrokes.png');
@@ -18,22 +21,21 @@ body {
     background-position: center;
 }
 .nameInput {
-    margin-right: 1em;
     height: 3em;
     width: 20em;
     font-size: 14px;
+    margin: 0 auto;
+    margin-top: 2em;
 }
-.inputButton, .nextButton{
+.nextButton{
     height: 3em;
     width: 5em;
+    margin: 0 auto;
     border-radius: 10%;
     border: none;
-    color: white;
     background-color: red;
     font-weight: bold;
     font-size: 16px;
-}
-
-.nextButton {
     margin-top: 1em;
+    color: white;
 }
