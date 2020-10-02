@@ -16,7 +16,6 @@ export class LetsimagineComponent implements OnInit {
   }
 
   ngOnInit(): void {
-
   }
 
 }
