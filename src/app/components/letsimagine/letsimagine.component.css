@@ -1,0 +1,14 @@
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 25px;
+}
+
+.second-paragraph, .third-paragraph{
+margin-top: 70px;
+}
+.first-paragraph{
+margin-top: 40px;
+align-content: center;
+}

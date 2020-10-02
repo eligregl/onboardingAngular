@@ -6,14 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: string = 'So excited to have you on board!'
-  imageUrl: string;
 
-  // onClick(inputValue: string) {
-  //   console.log(inputValue)
-  // }
-
-  onNameSubmit(name: string) {
-    console.log(name);
-  }
 }
