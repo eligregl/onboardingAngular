@@ -12,7 +12,7 @@ const routes: Routes = [
   {
     path: 'imagine/:name',
     component: LetsimagineComponent
-  }
+  },
 ];
 @NgModule({
   declarations: [],
