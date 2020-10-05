@@ -1,0 +1,28 @@
+<div class="accordion">
+    <div class="acc-header" (click)="toggle()">
+        <h2 class="headerTitle">{{ title }}</h2>
+        <div class="arrow"><i class="ion-ios-arrow-down"></i></div>
+    </div>
+    <div *ngIf="showBody">
+        <div class="acc-body">
+            <ul *ngFor="let job of initial">
+                <li *ngIf="title == 'Initial and Mid Level'">{{ job }}</li>
+            </ul>
+        </div>
+        <div class="acc-body">
+            <ul *ngFor="let job of senior">
+                <li *ngIf="title == 'Senior Level'">{{ job }}</li>
+            </ul>
+        </div>
+        <div class="acc-body">
+            <ul *ngFor="let job of expert">
+                <li *ngIf="title == 'Expert and MGMT'">{{ job }}</li>
+            </ul>
+        </div>
+        <div class="acc-body">
+            <ul *ngFor="let job of seniorMgmt">
+                <li *ngIf="title == 'Senior MGMT'">{{ job }}</li>
+            </ul>
+        </div>
+    </div>
+</div>

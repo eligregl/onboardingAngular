@@ -7,17 +7,10 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CareerpathComponent implements OnInit {
   @Input() h1: string = 'Career paths';
-  @Input() title: string = '';
   @Input() imageUrl: string = '';
-  showBody = false;
-
   constructor() { }
 
   ngOnInit(): void {
-  }
-
-  toggle() {
-    this.showBody = !this.showBody;
   }
 
 }
