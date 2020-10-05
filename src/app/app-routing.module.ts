@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes} from '@angular/router';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { LetsimagineComponent } from './components/letsimagine/letsimagine.component';
+import { CareerpathComponent } from './careerpath/careerpath.component';
 
 const routes: Routes = [
   {
@@ -13,6 +14,10 @@ const routes: Routes = [
     path: 'imagine/:name',
     component: LetsimagineComponent
   },
+  {
+    path: 'careerpath',
+    component: CareerpathComponent
+  }
 ];
 @NgModule({
   declarations: [],
