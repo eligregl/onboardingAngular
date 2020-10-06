@@ -11,7 +11,7 @@ const routes: Routes = [
     component: WelcomeComponent
   },
   {
-    path: 'imagine/:name',
+    path: 'imagine',
     component: LetsimagineComponent
   },
   {
