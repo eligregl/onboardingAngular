@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router'
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-welcome',
@@ -19,7 +19,6 @@ export class WelcomeComponent implements OnInit {
   }
 
   onClick() {
-    console.log(this.username);
     this.router.navigate([
       '/imagine',
       this.username
