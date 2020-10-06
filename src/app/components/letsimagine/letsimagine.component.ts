@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-letsimagine',
@@ -9,6 +10,7 @@ import { ActivatedRoute } from '@angular/router';
 export class LetsimagineComponent implements OnInit {
   name: string = '';
   constructor(
+    private router: Router,
     private activatedRoute: ActivatedRoute
   ) { 
     this.name = this.activatedRoute.snapshot.paramMap.get('name')
@@ -17,5 +19,4 @@ export class LetsimagineComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

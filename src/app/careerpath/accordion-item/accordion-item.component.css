@@ -14,6 +14,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: 4em;
+    justify-content: space-between;
 }
 
 .acc-header > h2 {
@@ -21,16 +23,25 @@
 }
 
 .headerTitle {
-    overflow-wrap: break-word;
-    overflow: auto;
-    width: 100%;
+    width: 50%;
+}
+.headerSubtitle{
+    color: #b3b3b3;
 }
 
-.acc-body {
+.acc-body > ul {
+    list-style-type: none;
     display: flex;
-    align-items: center;
-    min-height: 2.5em;
-    padding: 1em;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
+
+li {
+    margin-bottom: 1em;
+    margin-right: 1em;
+    padding-right: 1em;
+    font-weight: bold;
+    border-right: solid 2px gray;
 }
 
 .arrow {
