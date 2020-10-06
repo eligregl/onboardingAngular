@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
 import { Router } from '@angular/router';
+import { UserManagerServiceService } from '../../services/user-manager-service.service'
 
 @Component({
   selector: 'app-letsimagine',
@@ -11,12 +11,10 @@ export class LetsimagineComponent implements OnInit {
   name: string = '';
   constructor(
     private router: Router,
-    private activatedRoute: ActivatedRoute
-  ) { 
-    this.name = this.activatedRoute.snapshot.paramMap.get('name')
-    console.log(this.name)
-  }
+    private userManager: UserManagerServiceService,
+  ) { }
 
   ngOnInit(): void {
+    this.name = this.userManager.getUser();
   }
 }
