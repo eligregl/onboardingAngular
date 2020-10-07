@@ -7,9 +7,10 @@ import { LetsimagineComponent } from './components/letsimagine/letsimagine.compo
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { CareerpathModule } from './careerpath/careerpath.module';
 import { TriforceComponent } from './components/triforce/triforce.component';
+import { ExpertiseComponent } from './components/expertise/expertise.component';
 
 @NgModule({
-  declarations: [AppComponent, LetsimagineComponent, WelcomeComponent, TriforceComponent],
+  declarations: [AppComponent, LetsimagineComponent, WelcomeComponent, TriforceComponent, ExpertiseComponent],
   imports: [BrowserModule, FormsModule, AppRoutingModule, CareerpathModule],
   providers: [],
   bootstrap: [AppComponent],
