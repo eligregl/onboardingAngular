@@ -4,6 +4,7 @@ import { RouterModule, Routes} from '@angular/router';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { LetsimagineComponent } from './components/letsimagine/letsimagine.component';
 import { CareerpathComponent } from './careerpath/careerpath.component';
+import { TriforceComponent } from './components/triforce/triforce.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: 'careerpath',
     component: CareerpathComponent
+  },
+  { 
+    path: 'triforce',
+    component: TriforceComponent
   }
 ];
 @NgModule({
