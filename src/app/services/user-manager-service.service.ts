@@ -9,11 +9,9 @@ export class UserManagerServiceService {
 
   saveUser(name: string) {
     this.username = name;
-    console.log(this.username, name)
   }
 
   getUser() {
-    console.log(this.username)
     return this.username;
   }
 }
