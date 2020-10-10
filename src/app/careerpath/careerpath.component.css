@@ -1,12 +1,14 @@
 @import url("https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css");
 
-.title {
-    text-align: center;
-    margin-top: 1em;
-}
 .careerpath {
     display: flex;
     flex-direction: row;
+}
+.title {
+    width: 100%;
+    margin: 1em 0em;
+    text-align: center;
+    font-size: 4em;
 }
 .leftContainer {
     width: 50%;
@@ -18,10 +20,9 @@
     margin: auto 0;
     margin-right: 2em;
 }
-
 .pathImage {
-    height: 27em;
-    width: auto;
+    height: 30em;
+    width: 30em;
     margin-left: 5em;
 }
 button {

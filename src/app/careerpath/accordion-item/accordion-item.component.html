@@ -1,6 +1,6 @@
 <div class="accordion">
     <div class="acc-header" (click)="toggle()">
-        <h2 class="headerTitle">{{ title }}</h2><h3 class="headerSubtitle">{{ description }}</h3>
+        <h2 class="headerTitle">{{ title }}</h2>
         <div class="arrow"><i class="ion-ios-arrow-down"></i></div>
     </div>
     <div *ngIf="showBody">
@@ -24,5 +24,6 @@
                 <li *ngFor="let job of seniorMgmt">{{ job }}</li>
             </ul>
         </div>
+
     </div>
 </div>

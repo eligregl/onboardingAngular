@@ -1,0 +1,28 @@
+<div class="accordion">
+    <div class="acc-header" (click)="toggle()">
+        <h2 class="headerTitle">{{ title }}</h2><h3 class="headerSubtitle">{{ description }}</h3>
+        <div class="arrow"><i class="ion-ios-arrow-down"></i></div>
+    </div>
+    <div *ngIf="showBody">
+        <div class="acc-body">
+            <ul *ngIf="title === 'Excellence in your work'">
+                <li *ngFor="let value of excellent">{{ value }}</li>
+            </ul>
+            <ul *ngIf="title === 'Act Ethically'">
+                <li *ngFor="let value of act">{{ value }}</li>
+            </ul>
+            <ul *ngIf="title === 'Constantly Innovative'">
+                <li *ngFor="let value of constantly">{{ value }}</li>
+            </ul>
+            <ul *ngIf="title === 'Think Big'">
+                <li *ngFor="let value of think">{{ value }}</li>
+            </ul>
+            <ul *ngIf="title === 'Team Player'">
+                <li *ngFor="let value of team">{{ value }}</li>
+            </ul>
+            <ul *ngIf="title === 'Have Fun'">
+                <li *ngFor="let value of fun">{{ value }}</li>
+            </ul>
+        </div>
+    </div>
+</div>

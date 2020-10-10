@@ -9,9 +9,10 @@ import { CareerpathModule } from './careerpath/careerpath.module';
 import { TriforceComponent } from './components/triforce/triforce.component';
 import { ValuesComponent } from './components/values/values.component';
 import { KeypeopleComponent } from './components/keypeople/keypeople.component';
+import { AccordionvaluesComponent } from './components/values/accordionvalues/accordionvalues.component';
 
 @NgModule({
-  declarations: [AppComponent, LetsimagineComponent, WelcomeComponent, TriforceComponent, ValuesComponent, KeypeopleComponent],
+  declarations: [AppComponent, LetsimagineComponent, WelcomeComponent, TriforceComponent, ValuesComponent, KeypeopleComponent, AccordionvaluesComponent],
   imports: [BrowserModule, FormsModule, AppRoutingModule, CareerpathModule],
   providers: [],
   bootstrap: [AppComponent],
