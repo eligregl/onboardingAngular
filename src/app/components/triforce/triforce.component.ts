@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { UserManagerServiceService } from '../../services/user-manager-service.service'
+import { UserManagerServiceService } from '../../services/user-manager-service.service';
 
 @Component({
   selector: 'app-triforce',
@@ -8,8 +8,8 @@ import { UserManagerServiceService } from '../../services/user-manager-service.s
   styleUrls: ['./triforce.component.css']
 })
 export class TriforceComponent implements OnInit {
-  name: string = '';
-  studioimg:string ="./components/triforce/ui.png";
+  @Input() name: string = '';
+  @Input() imageUrl: string = '';
   constructor(
     private router: Router,
     private userManager: UserManagerServiceService,

@@ -4,6 +4,23 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 body { font-family: Roboto, "Helvetica Neue", sans-serif; }
-.button {
-    background-color: #bfd732;
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+button {
+    height: 3em;
+    width: 5em;
+    margin-right: 1em;
+    border-radius: 10%;
+    border: none;
+    background-color:#bfd732;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+.belowButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }

@@ -11,11 +11,12 @@ import { ValuesComponent } from './components/values/values.component';
 import { KeypeopleComponent } from './components/keypeople/keypeople.component';
 import { AccordionvaluesComponent } from './components/values/accordionvalues/accordionvalues.component';
 import { MatTabsModule } from '@angular/material/tabs';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
   declarations: [AppComponent, LetsimagineComponent, WelcomeComponent, TriforceComponent, ValuesComponent, KeypeopleComponent, AccordionvaluesComponent],
-  imports: [BrowserModule, FormsModule, AppRoutingModule, CareerpathModule, MatTabsModule],
+  imports: [BrowserModule, FormsModule, AppRoutingModule, CareerpathModule, MatTabsModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
   exports: [AppComponent]

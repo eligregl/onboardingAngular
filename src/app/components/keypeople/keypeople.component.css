@@ -1,0 +1,16 @@
+.keyPeople {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.keyPeople__card {
+    margin: 2em;
+}
+
+.keyPeople__card--photo {
+    border-radius: 50%;
+    height: 15em;
+    width: auto;
+    border: 5px solid #bfd732;
+}
