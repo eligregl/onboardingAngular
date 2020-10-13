@@ -8,7 +8,15 @@ body { font-family: Roboto, "Helvetica Neue", sans-serif; }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-button {
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 1em;
+}
+.buttonContainer > .button {
     height: 3em;
     width: 5em;
     margin-right: 1em;
@@ -17,10 +25,5 @@ button {
     background-color:#bfd732;
     font-weight: bold;
     font-size: 16px;
-    color: black;
-}
-.belowButtons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    color: #222222;
 }

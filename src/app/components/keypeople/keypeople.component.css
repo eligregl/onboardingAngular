@@ -1,3 +1,12 @@
+.mainContainer {
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    width: 5em;
+    border-top: 10px solid #bfd732;
+}
 .keyPeople {
     display: flex;
     flex-direction: row;
@@ -5,12 +14,32 @@
 }
 
 .keyPeople__card {
-    margin: 2em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
 
 .keyPeople__card--photo {
     border-radius: 50%;
-    height: 15em;
+    height: 10em;
     width: auto;
+    margin-bottom: 1em;
     border: 5px solid #bfd732;
+}
+
+.keyPeople__card > h3 {
+    font-size: 1.5em;
+}
+
+.keyPeople__card > p {
+    color: #bfd732;
+}
+.keyPeople__card.color > p {
+    color: #d732be;
+}
+.buttonContainer {
+    justify-self: center;
 }

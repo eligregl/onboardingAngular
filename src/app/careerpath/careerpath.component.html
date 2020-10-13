@@ -1,18 +1,20 @@
-<h1 class="title">{{ h1 }}</h1>
+<div class="container">
+    <h1 class="title">{{ h1 }}</h1>
 
-<div class="careerpath">
-    <div class="leftContainer">
-        <img [src]="'../assets/images/growing-path.png'" alt="" class="pathImage">
-    </div>
+    <div class="careerpath">
+        <div class="leftContainer">
+            <img [src]="'../assets/images/growing-path.png'" alt="" class="pathImage">
+        </div>
 
-    <div class="rightContainer">
-        <app-accordion-item title="Initial and Mid Level" description="Entry levels"></app-accordion-item>
-        <app-accordion-item title="Senior Level" description="Upper levels"></app-accordion-item>
-        <app-accordion-item title="Expert and MGMT" description="Expert positions"></app-accordion-item>
-        <app-accordion-item title="Senior MGMT" description="Top technical positions"></app-accordion-item>
+        <div class="rightContainer">
+            <app-accordion-item title="Initial and Mid Level" description="Entry levels"></app-accordion-item>
+            <app-accordion-item title="Senior Level" description="Upper levels"></app-accordion-item>
+            <app-accordion-item title="Expert and MGMT" description="Expert positions"></app-accordion-item>
+            <app-accordion-item title="Senior MGMT" description="Top technical positions"></app-accordion-item>
+        </div>
     </div>
-</div>
-<div class="belowButtons">
-    <button class="button" routerLink="/imagine">Previous</button>
-    <button class="button" routerLink="/triforce">Next</button>
+    <div class="buttonContainer">
+        <button class="button" routerLink="/imagine">Previous</button>
+        <button class="button" routerLink="/triforce">Next</button>
+    </div>
 </div>

@@ -1,18 +1,20 @@
-<h1 class="title">Globant Values & FCI3</h1>
-<div class="values">
-    <div class="leftContainer">
-        <img [src]="'../assets/images/manifesto.jpg'" alt="manifesto Globant" class="pathImage">
+<div class="mainContainer">
+    <h1 class="title">Globant Values & FCI3</h1>
+    <div class="values">
+        <div class="leftContainer">
+            <img [src]="'../assets/images/manifesto.jpg'" alt="manifesto Globant" class="pathImage">
+        </div>
+        <div class="rightContainer">
+            <app-accordionvalues title="Excellence in your work"></app-accordionvalues>
+            <app-accordionvalues title="Act Ethically"></app-accordionvalues>
+            <app-accordionvalues title="Constantly Innovative"></app-accordionvalues>
+            <app-accordionvalues title="Think Big"></app-accordionvalues>
+            <app-accordionvalues title="Team Player"></app-accordionvalues>
+            <app-accordionvalues title="Have Fun"></app-accordionvalues>
+        </div>
     </div>
-    <div class="rightContainer">
-        <app-accordionvalues title="Excellence in your work"></app-accordionvalues>
-        <app-accordionvalues title="Act Ethically"></app-accordionvalues>
-        <app-accordionvalues title="Constantly Innovative"></app-accordionvalues>
-        <app-accordionvalues title="Think Big"></app-accordionvalues>
-        <app-accordionvalues title="Team Player"></app-accordionvalues>
-        <app-accordionvalues title="Have Fun"></app-accordionvalues>
+    <div class="buttonContainer">
+        <button class="button" routerLink="/triforce">Previous</button>
+        <button class="button" routerLink="/keypeople">Next</button>
     </div>
-</div>
-<div class="belowButtons">
-    <button class="button" routerLink="/triforce">Previous</button>
-    <button class="button" routerLink="/keypeople">Next</button>
 </div>

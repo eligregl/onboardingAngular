@@ -1,23 +1,26 @@
 @import url("https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css");
 
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .values {
     display: flex;
     flex-direction: row;
 }
 .title {
     font-size: 42px;
-    text-align: center;
     padding: 1em;
 }
 
+
 .leftContainer > img {
+    padding-top: 10%;
     width: 90%;
-    margin: 0 2em;
+    margin: auto;
 }
 .rightContainer {
     width: 50%;
     margin: 0 2em;
-}
-.belowButtons {
-    margin-top: 1em;
 }

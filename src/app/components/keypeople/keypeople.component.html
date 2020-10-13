@@ -1,16 +1,43 @@
-<H1>{{ title }}</H1>
-<h3>{{ subtitle }}</h3>
+<div class="mainContainer">
+    <H1>{{ title }}</H1>
+    <h2>{{ subtitle }}</h2>
 
-<div class="keyPeople">
-    <div class="keyPeople__card">
-        <img [src]="'https://api.starmeup.com/starmeup-api/v2/image/rtounkjsnksfopwhrbgg_png/300/300/1?imageAnimated=true'" alt=""class="keyPeople__card--photo">
-        <h3>Daniel Lazzarano</h3>
-        <p>SP and UI Partner</p>
-        <p>Studio Partner</p>
+    <div class="keyPeople">
+        <div class="keyPeople__card">
+            <img [src]="'https://api.starmeup.com/starmeup-api/v2/image/rtounkjsnksfopwhrbgg_png/300/300/1?imageAnimated=true'" alt=""class="keyPeople__card--photo">
+            <h3>Daniel Lazzarano</h3>
+            <p>SP and UI Partner</p>
+            <p>Studio Partner</p>
+        </div>
+        <div class="keyPeople__card color">
+            <img [src]="'https://api.starmeup.com/starmeup-api/v2/image/putsniwcmdargkvbzpad_png/300/300/1?imageAnimated=true'" alt=""class="keyPeople__card--photo">
+            <h3>David Correa</h3>
+            <p>SP and UI Partner</p>
+            <p>Studio Partner</p>
+        </div>
+        
+        <div class="keyPeople__card">
+            <img [src]="'https://api.starmeup.com/starmeup-api/v2/image/cqxaksibboczofffevxs/300/300/1?imageAnimated=true'" alt="" class="keyPeople__card--photo">
+            <h3>Luciana Zavaleta</h3>
+            <p>UI Engineering</p>
+            <p>Partner</p>
+        </div>
+
+        <div class="keyPeople__card color">
+            <img [src]="'https://api.starmeup.com/starmeup-api/v2/image/wgbriuddehbsdmouqmqe_png/300/300/1?imageAnimated=true'" alt="" class="keyPeople__card--photo">
+            <h3>Gabriel Martínez</h3>
+            <p>UI TDC Focal</p>
+            <p>Tech. Director</p>
+        </div>
+
+        <div class="keyPeople__card">
+            <img [src]="'https://api.starmeup.com/starmeup-api/v2/image/obthggdnwxqijsgqwblb_png/300/300/1?imageAnimated=true80'" alt="" class="keyPeople__card--photo">
+            <h3>Sebastián Gómez</h3>
+            <p>UI Engineering</p>
+            <p>Tech. Manager</p>
+        </div>
+        <div class="buttonContainer">
+            <button class="button" routerLink="/values">Previous</button>
+            <button class="button" routerLink="/ready">Next</button>
+        </div>
     </div>
-
-    <img [src]="'https://api.starmeup.com/starmeup-api/v2/image/putsniwcmdargkvbzpad_png/300/300/1?imageAnimated=true'" alt=""class="keyPeople__card--photo">
-    <img [src]="'https://api.starmeup.com/starmeup-api/v2/image/cqxaksibboczofffevxs/300/300/1?imageAnimated=true'" alt="" class="keyPeople__card--photo">
-    <img [src]="'https://api.starmeup.com/starmeup-api/v2/image/wgbriuddehbsdmouqmqe_png/300/300/1?imageAnimated=true'" alt="" class="keyPeople__card--photo">
-    <img [src]="'https://api.starmeup.com/starmeup-api/v2/image/obthggdnwxqijsgqwblb_png/300/300/1?imageAnimated=true80'" alt="" class="keyPeople__card--photo">
-</div>
