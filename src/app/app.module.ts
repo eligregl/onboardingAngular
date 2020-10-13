@@ -10,10 +10,12 @@ import { TriforceComponent } from './components/triforce/triforce.component';
 import { ValuesComponent } from './components/values/values.component';
 import { KeypeopleComponent } from './components/keypeople/keypeople.component';
 import { AccordionvaluesComponent } from './components/values/accordionvalues/accordionvalues.component';
+import { MatTabsModule } from '@angular/material/tabs';
+
 
 @NgModule({
   declarations: [AppComponent, LetsimagineComponent, WelcomeComponent, TriforceComponent, ValuesComponent, KeypeopleComponent, AccordionvaluesComponent],
-  imports: [BrowserModule, FormsModule, AppRoutingModule, CareerpathModule],
+  imports: [BrowserModule, FormsModule, AppRoutingModule, CareerpathModule, MatTabsModule],
   providers: [],
   bootstrap: [AppComponent],
   exports: [AppComponent]

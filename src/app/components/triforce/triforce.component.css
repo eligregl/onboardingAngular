@@ -34,3 +34,7 @@ button {
     justify-content: center;
     margin-top: 9em;
 }
+
+::ng-deep .mat-tab-header{
+    background-color: white;
+}
