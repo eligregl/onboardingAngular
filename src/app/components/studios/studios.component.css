@@ -1,0 +1,16 @@
+.mainContainer {
+    padding: 2em;
+}
+.mainContainer > h1 {
+    font-weight: 800;
+    text-align: center;
+}
+.carousel-item > img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important ;
+    padding: 5em;
+}
+.buttonContainer {
+    left: 43.5%;
+}
