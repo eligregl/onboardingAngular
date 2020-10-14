@@ -1,0 +1,24 @@
+.mainContainer {
+    background-image: linear-gradient(
+        rgba(52, 235, 149, 0.7), 
+        rgba(52, 235, 186, 0.7)
+    ),
+    url('https://www.cv-library.co.uk/career-advice/wp-content/uploads/2018/06/What-is-it-like-working-in-IT.jpg') !important;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.textContainer {
+    margin-left: 5em;
+}
+h1 {
+    font-size: 3em;
+}
+.logo-globant {
+    height: 3em;
+    width: auto;
+}
