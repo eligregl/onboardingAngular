@@ -14,12 +14,11 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReadyComponent } from './components/ready/ready.component';
 import { StudiosComponent } from './components/studios/studios.component';
-import { SlideshowModule } from 'ng-simple-slideshow';
 
 
 @NgModule({
   declarations: [AppComponent, LetsimagineComponent, WelcomeComponent, TriforceComponent, ValuesComponent, KeypeopleComponent, AccordionvaluesComponent, ReadyComponent, StudiosComponent],
-  imports: [BrowserModule, FormsModule, AppRoutingModule, CareerpathModule, MatTabsModule, BrowserAnimationsModule, SlideshowModule],
+  imports: [BrowserModule, FormsModule, AppRoutingModule, CareerpathModule, MatTabsModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
   exports: [AppComponent]
