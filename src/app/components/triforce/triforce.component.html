@@ -1,22 +1,28 @@
-<h2 class="title">The Triforce</h2>
+<h1 class="title">The Triforce</h1>
 <div class="container"> 
   <p class="first-paragraph">The three aspects consist of the Studio, TDC and Accounts</p>
   <p class="first-paragraph"><strong>{{ name }}</strong>, you are here</p>
   <div class="tabs" >
     <mat-tab-group dynamicHeight = true>
       <mat-tab label="Expertise">
-        <img clas="imagen" [src]=studioimg >
+        <div>
+          <img [src]="'../../../assets/images/cope.PNG'" alt="COPE" class="image">
+        </div>
       </mat-tab>
       <mat-tab label="Site">
-
+        <div>
+          <img [src]="'../../../assets/images/ui.png'" alt="UI" class="image">
+        </div>
       </mat-tab>
       <mat-tab label="Business">
-        
+        <div>
+          <img [src]="'../../../assets/images/business.png'" alt="business" class="image">
+        </div>
       </mat-tab>
     </mat-tab-group>
    </div>
-    <div class="belowButtons">
-        <button class="button" routerLink="/">Previous</button>
-        <button class="button" routerLink="/careerpath">Next</button>
-    </div>
+   <div class="buttonContainer">
+    <button class="button" routerLink="/careerpath">Previous</button>
+    <button class="button" routerLink="/values">Next</button>
+   </div>
 </div>
